@@ -1,0 +1,67 @@
+const randomNumber = Math.floor(Math.random() * 10)
+
+let Quote = '';
+
+allBibleChapters = ['Genesis', 'Exodus', 'Leviticus', 'Numbers',
+  'Deuteronomy', 'Joshua', 'Judges', 'Ruth', '1 Samuel',
+  '2 Samuel', '1 Kings', '2 Kings', '1 Chronicles', '2 Chronicles',
+  'Ezra', 'Nehemiah', 'Esther', 'Job', 'Psalms', 'Proverbs',
+  'Ecclesiastes', 'Song of Solomon (or Song of Songs)', 'Isaiah',
+  'Jeremiah', 'Lamentations', 'Ezekiel', 'Daniel', 'Hosea',
+  'Joel', 'Amos', 'Obadiah', 'Jonah', 'Micah', 'Nahum',
+  'Habakkuk', 'Zephaniah', 'Haggai', 'Zechariah', 'Malachi', 'Matthew',
+  'Mark', 'Luke', 'John', 'Acts of the Apostles', 'Romans', '1 Corinthians',
+  '2 Corinthians', 'Galatians', 'Ephesians', 'Philippians', 'Colossians', '1 Thessalonians',
+  '2 Thessalonians', '1 Timothy', '2 Timothy', 'Titus', 'Philemon', 'Hebrews',
+  'James', '1 Peter', '2 Peter', '1 John', '2 John', '3 John',
+  'Jude', 'Revelation',
+  ]
+
+const randomNumber3 = Math.floor(Math.random() * allBibleChapters.length)
+
+
+const goRead = 'Now Go And Read The Book Of ' + allBibleChapters[randomNumber3].toUpperCase() + ' in the Holy Bible.'
+
+  
+switch (randomNumber) {
+  case 0: 
+    Quote = 'Proverbs 31:25 She is clothed with strength and dignity; she can laugh at the days to come. ' + goRead;
+    break;
+  case 1: 
+    Quote = 'Romans 15:5 May the God who gives endurance and encouragement give you the same attitude of mind toward each other that Christ Jesus had. ' + goRead;
+    break;
+  case 2:
+    Quote = 'Thessalonians 5:11 Therefore encourage one another and build each other up, just as in fact you are doing. ' + goRead;
+    break;
+  case 3: 
+    Quote = 'John 16:33 I have told you these things, so that in me you may have peace. In this world you will have trouble. But take heart! I have overcome the world. ' + goRead;
+    break;
+  case 4:
+    Quote = 'Psalm 121:1-2 I lift up my eyes to the mountains—where does my help come from? My help comes from the Lord, the Maker of heaven and earth. ' + goRead;
+    break;
+  case 5: 
+    Quote = '1 Peter 4:8 Above all, love each other deeply, because love covers over a multitude of sins. ' + goRead;
+    break;
+  case 6: 
+    Quote = 'Isaiah 40:31 but those who hope in the LORD will renew their strength. They will soar on wings like eagles; they will run and not grow weary, they will walk and not be faint. ' + goRead
+    break;
+  case 7:
+    Quote = 'Mark 10:27 Jesus looked at them and said, “With man this is impossible, but not with God; all things are possible with God ' + goRead
+    break;
+  case 8:
+    Quote = 'Joshua 1:9 Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged, for the LORD your God will be with you wherever you go. ' + goRead
+    break;
+  case 9:
+    Quote = 'Isaiah 41:10 So do not fear, for I am with you; do not be dismayed, for I am your God. I will strengthen you and help you; I will uphold you with my righteous right hand. ' + goRead
+    break;
+  case 10:
+    Quote = 'Philippians 4:13 I can do all this through him who gives me strength ' + goRead
+
+ }
+
+
+ console.log(Quote)
+
+
+
+
